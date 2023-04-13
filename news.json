@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "НОВИНКА ГОДА!",
+    "imageUrl": "./img/news/1.png",
+    "text": "КОРМ класса\nСуперпремиум"
+  },
+  {
+    "id": "2",
+    "title": "news_2",
+    "imageUrl": "./img/news/2.png",
+    "text": "встречайте\nкорма на\nзоосаммите"
+  },
+  {
+    "id": "3",
+    "title": "news_3",
+    "imageUrl": "./img/news/3.png",
+    "text": "ЗАПУСК\nПРОИЗВОДСТВА!"
+  }
+]

@@ -1,0 +1,15 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slide {
+    width: 100%;
+}
+.landing-care-slider-img {
+    max-width: 50%;
+}
