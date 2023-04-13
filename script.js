@@ -30,5 +30,30 @@ fetch('news.json')
                 clickable: true,
             },
         });
+
+        // настройки свайпера, не отрабатывают! Проверить с утра!
+        const swiper = new Swiper('.swiper', {
+            // Default parameters
+            slidesPerView: 2,
+            spaceBetween: 10,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 5
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 10
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 40
+                }
+            }
+        })
     })
     .catch(error => console.error(error));
