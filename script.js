@@ -18,20 +18,8 @@ fetch('news.json')
         // Вставляем слайды в слайдер
         slider.querySelector('.swiper-wrapper').innerHTML = slides.join('');
 
-       // // Инициализируем Swiper.js
-       //  let swiper = new Swiper(swiperContainer, {
-       //      loop: false,
-       //      navigation: {
-       //          nextEl: '.swiper-button-next',
-       //          prevEl: '.swiper-button-prev',
-       //      },
-       //      pagination: {
-       //          el: '.swiper-pagination',
-       //          clickable: true,
-       //      },
-       //  });
-
-        // настройки свайпера, не отрабатывают! Проверить с утра!
+        //// Инициализируем Swiper.js
+        // настройки свайпера
         let mySlider = new Swiper(slider, {
             // Default parameters
             initialSlide: 0,
@@ -66,7 +54,6 @@ fetch('news.json')
                 }
             }
         })
-
 
 
     })

@@ -1,17 +1,19 @@
 .container-carousel {
-height: 80px;
+    max-width: 1200px;
+    padding: 0 30px;
     border: 1px solid red;
+    position: relative;
+    margin: 0 auto;
+}
+
+.swiper-container {
+    /*border: 1px solid green;*/
 }
 
 .swiper-wrapper {
-    width: 100%;
+    width: 90%;
     display: flex;
     border: 1px solid black;
-}
-.swiper-container {
-    max-width: 1200px;
-    padding: 0 30px;
-    border: 1px solid green;
 }
 
 .landing-care-slider-img {
