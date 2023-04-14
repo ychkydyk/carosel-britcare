@@ -1,10 +1,16 @@
 .container-carousel {
-    max-width: 1070px;
+
 }
 
 .swiper-wrapper {
     width: 100%;
     display: flex;
+}
+.swiper-container {
+    width: 100%;
+}
+.swiper-slide {
+    max-width: 525px
 }
 
 .landing-care-slider-img {

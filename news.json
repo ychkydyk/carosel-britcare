@@ -3,18 +3,30 @@
     "id": "1",
     "title": "НОВИНКА ГОДА!",
     "imageUrl": "./img/news/1.png",
-    "text": "КОРМ класса\nСуперпремиум"
+    "text": "КОРМ класса\nСуперпремиум1"
   },
   {
     "id": "2",
     "title": "news_2",
     "imageUrl": "./img/news/2.png",
-    "text": "встречайте\nкорма на\nзоосаммите"
+    "text": "встречайте\nкорма на\nзоосаммите2"
   },
   {
     "id": "3",
     "title": "news_3",
     "imageUrl": "./img/news/3.png",
-    "text": "ЗАПУСК\nПРОИЗВОДСТВА!"
+    "text": "ЗАПУСК\nПРОИЗВОДСТВА3!"
+  },
+  {
+    "id": "4",
+    "title": "news_4",
+    "imageUrl": "./img/news/3.png",
+    "text": "ЗАПУСК\nПРОИЗВОДСТВА4!"
+  },
+  {
+    "id": "5",
+    "title": "news_5",
+    "imageUrl": "./img/news/3.png",
+    "text": "ЗАПУСК\nПРОИЗВОДСТВА5!"
   }
 ]
