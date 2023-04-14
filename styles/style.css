@@ -13,7 +13,6 @@
 .swiper-wrapper {
     width: 90%;
     display: flex;
-    border: 1px solid black;
 }
 
 .landing-care-slider-img {
