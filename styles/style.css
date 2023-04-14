@@ -8,7 +8,8 @@ height: 80px;
     display: flex;
 }
 .swiper-container {
-    min-width: 525px;
+    max-width: 1200px;
+    padding: 0 30px
 }
 
 .landing-care-slider-img {
