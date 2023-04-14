@@ -1,5 +1,5 @@
 // Получаем контейнер слайдера
-const swiperContainer = document.querySelector('.swiper-container');
+const slider = document.querySelector('.swiper-container');
 
 // Загружаем данные из .json файла
 fetch('news.json')
@@ -16,11 +16,29 @@ fetch('news.json')
       `;
         });
         // Вставляем слайды в слайдер
-        swiperContainer.querySelector('.swiper-wrapper').innerHTML = slides.join('');
+        slider.querySelector('.swiper-wrapper').innerHTML = slides.join('');
 
-       // Инициализируем Swiper.js
-        new Swiper(swiperContainer, {
+       // // Инициализируем Swiper.js
+       //  let swiper = new Swiper(swiperContainer, {
+       //      loop: false,
+       //      navigation: {
+       //          nextEl: '.swiper-button-next',
+       //          prevEl: '.swiper-button-prev',
+       //      },
+       //      pagination: {
+       //          el: '.swiper-pagination',
+       //          clickable: true,
+       //      },
+       //  });
+
+        // настройки свайпера, не отрабатывают! Проверить с утра!
+        let mySlider = new Swiper(slider, {
+            // Default parameters
+            initialSlide: 0,
             loop: false,
+            spaceBetween: 10,
+            centeredSlides: false,
+            slideToClickedSlide: true,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -29,31 +47,21 @@ fetch('news.json')
                 el: '.swiper-pagination',
                 clickable: true,
             },
-        });
-
-        // настройки свайпера, не отрабатывают! Проверить с утра!
-        const swiper = new Swiper('.swiper', {
-            // Default parameters
-            initialSlide: 1,
-            loop: true,
-            spaceBetween: 10,
-            centeredSlides: true,
-            slideToClickedSlide: true,
             // Responsive breakpoints
             breakpoints: {
                 // when window width is >= 320px
                 320: {
-                    slidesPerView: 1.5,
+                    slidesPerView: 2,
                     spaceBetween: 5
                 },
                 // when window width is >= 480px
                 480: {
-                    slidesPerView: 1.5,
+                    slidesPerView: 2,
                     spaceBetween: 10
                 },
                 // when window width is >= 640px
                 640: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 40
                 }
             }

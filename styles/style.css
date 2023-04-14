@@ -1,5 +1,6 @@
 .container-carousel {
-
+height: 80px;
+    border: 1px solid black;
 }
 
 .swiper-wrapper {
@@ -7,10 +8,10 @@
     display: flex;
 }
 .swiper-container {
-    max-width: 100vh;
+    min-width: 525px;
 }
 
 .landing-care-slider-img {
-    max-width: 525px;
+    max-width: 100%;
 }
 
